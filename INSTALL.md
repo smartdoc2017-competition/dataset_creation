@@ -2,8 +2,8 @@ ICDAR 2017 Competition SmartDoc-reconstruction
 ==============================================
 ==============================================
 
-Installation procedure for ground truth creation tools
-======================================================
+Installation procedure for dataset creation tools
+=================================================
 
 Dependencies
 ------------
