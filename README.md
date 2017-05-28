@@ -26,6 +26,9 @@ $ pdftk input.pdf burst
 
 # To convert a single-page PDF file to a 300 DPI PNG file
 $ convert -density 300 input.pdf -flatten  output.png
+
+# Optionally, to keep the image size manageable, remove alpha channel and for color space/depth
+$ convert -scale 3600\> ground-truth-orig.png -background white -alpha remove -alpha off -colorspace sRGB -depth 8 -type TrueColor ground-truth-checked.png
 ~~~
 
 3. Finalize the ground truth image: make sure the PNG is cropped to the right
